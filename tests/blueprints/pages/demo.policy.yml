@@ -1,0 +1,37 @@
+title: Demo page
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          text:
+            label: Text
+            type: text
+
+          admin:
+            label: Admin
+            type: text
+            policy: admin
+
+          editor:
+            label: Editor
+            type: text
+            policy: editor
+
+          mixed:
+            label: Mixed
+            type: text
+            policy:
+              - admin
+              - editor
+
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        type: pages
+      files:
+        type: files

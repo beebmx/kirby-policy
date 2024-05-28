@@ -1,0 +1,21 @@
+# System files
+# ------------
+
+/.idea
+/kirby
+/storage/*.key
+.DS_Store
+.php-cs-fixer.cache
+.php_cs.cache
+
+# npm modules
+/node_modules
+
+# Composer files
+/vendor
+composer.lock
+
+# Testing files
+phpunit.xml
+.phpunit.cache
+.phpunit.result.cache

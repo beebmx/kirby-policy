@@ -1,0 +1,4 @@
+title: Guest
+permissions:
+  access:
+    panel: false

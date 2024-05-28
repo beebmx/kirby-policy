@@ -1,0 +1,68 @@
+title: Complex page
+
+tabs:
+
+  # Admin only
+  adminOnly:
+    label: Admin only
+    policy:
+      - admin
+
+    columns:
+
+      # Main exclusive
+      mainAdminExclusive:
+        type: fields
+        fields:
+
+          item:
+            label: Item
+            type: text
+
+  # Content
+  content:
+    label: Content
+    icon: page
+
+    columns:
+
+      # Main
+      main:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              text:
+                label: Text
+                type: text
+
+              admin:
+                label: Admin
+                type: text
+                policy:
+                  - admin
+
+              editor:
+                label: Editor
+                type: text
+                policy:
+                  - editor
+
+              mixed:
+                label: Mixed
+                type: text
+                policy:
+                  - admin
+                  - editor
+
+      # Sidebar
+      sidebar:
+        sticky: true
+        width: 1/3
+        sections:
+          pages:
+            type: pages
+            template: default
+          files:
+            type: files

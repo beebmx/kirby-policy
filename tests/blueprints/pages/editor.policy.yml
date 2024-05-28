@@ -1,0 +1,27 @@
+title: Editor page
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          text:
+            label: Text
+            type: text
+
+          private:
+            label: Private
+            type: text
+            policy: editor
+
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        type: pages
+        policy:
+          - editor
+      files:
+        type: files

@@ -1,0 +1,48 @@
+{
+    "name": "beebmx/kirby-policy",
+	"version": "1.0.0",
+    "description": "Kirby Blueprint Policies for Kirby 4",
+    "license": "MIT",
+	"type": "kirby-plugin",
+    "keywords": [
+        "kirby", "kirby-4", "security", "policy", "policies"
+    ],
+    "authors": [
+        {
+            "name": "Fernando Gutierrez",
+            "homepage": "https://beeb.mx"
+        }
+    ],
+	"require": {
+        "php": "^8.2",
+		"getkirby/composer-installer": "^1.1"
+	},
+	"require-dev": {
+        "getkirby/cms": "^4.2",
+        "laravel/pint": "^1.10",
+        "pestphp/pest": "^2.0",
+        "spatie/ray": "^1.40"
+    },
+	"config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+		"allow-plugins": {
+            "getkirby/composer-installer": true,
+            "pestphp/pest-plugin": true
+        }
+	},
+    "autoload": {
+        "psr-4": {
+            "Beebmx\\KirbyPolicy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    }
+}
