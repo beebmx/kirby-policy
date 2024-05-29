@@ -2,9 +2,9 @@
 
 <p align="center">
 <a href="https://github.com/beebmx/kirby-policy/actions"><img src="https://img.shields.io/github/actions/workflow/status/beebmx/kirby-policy/tests.yml?branch=main" alt="Build Status"></a>
-<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/v" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/license" alt="License"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://img.shields.io/packagist/dt/beebmx/kirby-policy" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://img.shields.io/packagist/v/beebmx/kirby-policy" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://img.shields.io/packagist/l/beebmx/kirby-policy" alt="License"></a>
 </p>
 
 # Kirby Policy

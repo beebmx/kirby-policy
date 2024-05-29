@@ -2,6 +2,10 @@
 
 All notable changes to `Kirby Policy` will be documented in this file.
 
+## 1.0.4 - 2024-05-28
+
+- Update README
+
 ## 1.0.3 - 2024-05-28
 
 - Update logo size in README
