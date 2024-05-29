@@ -1,4 +1,4 @@
-<p align="center"><a href="https://beebmx.github.io/kirby-policy" target="_blank" rel="noopener"><img src="https://github.com/beebmx/kirby-policy/blob/main/assets/logo.svg?raw=true" width="200" alt="Kirby Policy Logo"></a></p>
+<p align="center"><a href="https://beebmx.github.io/kirby-policy" target="_blank" rel="noopener"><img src="https://github.com/beebmx/kirby-policy/blob/main/assets/logo.svg?raw=true" width="125" alt="Kirby Policy Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/beebmx/kirby-policy/actions"><img src="https://img.shields.io/github/actions/workflow/status/beebmx/kirby-policy/tests.yml?branch=main" alt="Build Status"></a>
