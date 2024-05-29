@@ -1,10 +1,6 @@
 name: Tests
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: ['push', 'pull_request']
 
 jobs:
   test:
@@ -14,9 +10,8 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         php: [8.2, 8.3]
-        stability: [prefer-lowest, prefer-stable]
 
-    name: P${{ matrix.php }} - ${{ matrix.stability }} - ${{ matrix.os }}
+    name: P${{ matrix.php }} - ${{ matrix.os }}
 
     steps:
       - name: Checkout code
@@ -31,7 +26,7 @@ jobs:
           coverage: none
 
       - name: Install dependencies
-        run: composer install --${{ matrix.stability }} --no-interaction --prefer-dist --optimize-autoloader
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
-      - name: Execute tests
+      - name: Tests
         run: ./vendor/bin/pest
