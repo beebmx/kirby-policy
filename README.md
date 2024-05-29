@@ -1,11 +1,11 @@
-<p align="center"><a href="https://beebmx.github.io/kirby-policy" target="_blank" rel="noopener"><img src="https://github.com/beebmx/kirby-policy/blob/main/assets/logo.svg?raw=true" width="300" alt="Kirby Policy Logo"></a></p>
+<p align="center"><a href="https://beebmx.github.io/kirby-policy" target="_blank" rel="noopener"><img src="https://github.com/beebmx/kirby-policy/blob/main/assets/logo.svg?raw=true" width="200" alt="Kirby Policy Logo"></a></p>
 
-[![Latest Stable Version](https://poser.pugx.org/beebmx/kirby-policy/v)](//packagist.org/packages/beebmx/kirby-policy)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/beebmx/kirby-policy/tests.yml?branch=main)
-[![Total Downloads](http://poser.pugx.org/beebmx/kirby-policy/downloads)](https://packagist.org/packages/beebmx/kirby-policy)
-[![License](https://poser.pugx.org/beebmx/kirby-policy/license)](//packagist.org/packages/beebmx/kirby-policy)
-
-
+<p align="center">
+<a href="https://github.com/beebmx/kirby-policy/actions"><img src="https://img.shields.io/github/actions/workflow/status/beebmx/kirby-policy/tests.yml?branch=main" alt="Build Status"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/v" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://poser.pugx.org/beebmx/kirby-policy/license" alt="License"></a>
+</p>
 
 # Kirby Policy
 

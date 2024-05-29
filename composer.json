@@ -1,6 +1,6 @@
 {
     "name": "beebmx/kirby-policy",
-	"version": "1.0.0",
+	"version": "1.0.1",
     "description": "Kirby Blueprint Policies for Kirby 4",
     "license": "MIT",
 	"type": "kirby-plugin",
@@ -44,5 +44,7 @@
     },
     "scripts": {
         "test": "vendor/bin/pest"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
