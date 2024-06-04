@@ -2,6 +2,10 @@
 
 All notable changes to `Kirby Policy` will be documented in this file.
 
+## 1.0.6 - 2024-06-03
+
+- Fixed options for kirby-policy
+
 ## 1.0.5 - 2024-05-30
 
 - Fixed name in Kirby::plugin

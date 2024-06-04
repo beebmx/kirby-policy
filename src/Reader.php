@@ -16,7 +16,7 @@ class Reader
 
     public function __construct(protected Kirby $kirby)
     {
-        $this->suffix = $this->kirby->option('beebmx.policy.suffix', 'policy');
+        $this->suffix = $this->kirby->option('beebmx.kirby-policy.suffix', 'policy');
     }
 
     public function exclude(string|array $excluded): self

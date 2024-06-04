@@ -24,7 +24,7 @@ class Blueprints
         $this->files = new Collection(
             (new Reader($this->kirby))
                 ->exclude(
-                    $this->kirby->option('beebmx.policy.excluded', 'users')
+                    $this->kirby->option('beebmx.kirby-policy.excluded', 'users')
                 )->get()
         );
     }
