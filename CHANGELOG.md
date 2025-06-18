@@ -2,6 +2,12 @@
 
 All notable changes to `Kirby Policy` will be documented in this file.
 
+## 1.1.0 - 2025-06-18
+
+- Added support for Kirby@5.x
+- Upgrade to pest@3.x
+- Update github actions
+
 ## 1.0.6 - 2024-06-03
 
 - Fixed options for kirby-policy
