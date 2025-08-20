@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/beebmx/kirby-policy"><img src="https://img.shields.io/packagist/l/beebmx/kirby-policy" alt="License"></a>
 </p>
 
-# Kirby Policy
+# Policy for Kirby
 
 An easy way to display different content in your Kirby panel for different user roles.
 
@@ -140,11 +140,13 @@ tabs:
 
 ## Options
 
-| Option                       | Default |      Types       | Description                             |
-|:-----------------------------|:-------:|:----------------:|:----------------------------------------|
-| beebmx.kirby-policy.excluded |  users  | `array` `string` | Excluded blueprints                     |
-| beebmx.kirby-policy.suffix   | policy  |     `string`     | Blueprint suffix (e.g. file.policy.yml) |
+| Option                 | Default |      Types       | Description                             |
+|:-----------------------|:-------:|:----------------:|:----------------------------------------|
+| beebmx.policy.excluded |  users  | `array` `string` | Excluded blueprints                     |
+| beebmx.policy.suffix   | policy  |     `string`     | Blueprint suffix (e.g. file.policy.yml) |
 
+> [!WARNING]
+> Since version `1.2.0`, `Policy` changes the plugin prefix from `beebmx.kirby-policy` to `beebmx.policy`.
 
 ## License
 
