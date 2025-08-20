@@ -1,7 +1,7 @@
 {
     "name": "beebmx/kirby-policy",
-	"version": "1.1.0",
-    "description": "Kirby Blueprint Policies for Kirby 4, 5",
+	"version": "1.2.1",
+    "description": "Blueprint Policies for Kirby",
     "license": "MIT",
 	"type": "kirby-plugin",
     "keywords": [

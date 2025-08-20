@@ -2,6 +2,10 @@
 
 All notable changes to `Kirby Policy` will be documented in this file.
 
+## 1.2.1 - 2025-08-20
+
+- Fixed composer version
+
 ## 1.2.0 - 2025-08-20
 
 - Update plugin prefix to `beebmx.policy`
